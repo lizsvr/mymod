@@ -29,7 +29,7 @@ exit 0
 fi
 mkdir /etc/xray
 mkdir -p /etc/xray
-wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/lizsvr/mymod/main/websocket/ins-ws.sh && chmod +x ins-ws.sh && ./ins-ws.sh
 #install v2ray
 wget https://raw.githubusercontent.com/senowahyu62/sshws-only/main/ssh/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
